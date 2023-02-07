@@ -1,0 +1,52 @@
+#background {
+    height: 725px;
+}
+#body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+body {
+    background-color: #fcfbfb; 
+    text-decoration: none;
+}
+header {
+    background-color:rgba(20,30,13, .7);
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #E7C24F ;
+    text-decoration: none;
+}
+.book{
+    background-color:#A42212;
+    text-decoration: none;
+}
+.join{
+    background-color:black;
+    text-decoration: none;
+}
+.book:hover{
+    background-color:#A42212;
+    text-decoration: none;
+}
+.join:hover{
+    background-color:#E7C24F ;
+    text-decoration: none;
+}
+#background{
+    background-color:black;
+    text-decoration: none;
+}
+.msg{
+    background-color:#396E94;
+    text-decoration: none;
+}
+footer{
+    background-color:#396E94;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
