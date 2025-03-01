@@ -1,14 +1,75 @@
-<h1>Welcome to WDD130 Web Projects</h1>
-<nav>
-  <a href="wwr/index.html">Rad Rafting</a>
-  <a href="wwr/site-plan-rafting.html">Rad Rafting Siteplan</a>
-  <a href="wwr/positioning.html">Positioning Activity</a>
-  <a href="personalsite/index.html">Personal Website</a>
-  <a href="personalsite/siteplan.html">Personal Siteplan</a>
-  <a href="portfolio\siteplan.html">Personal Portfolio</a>
-</nav>  
-<h2>Other projects that I chose to host here:</h2>
-<nav>
-  <a href="cherry site/index.html">Cherry site</a>
-</nav>
-<p>Bryson - WDD130</p>                
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 Web Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        nav {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            margin: 20px auto;
+        }
+        nav a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bryson Laney : WDD130 </h1>
+        <nav>
+            <a href="wwr/index.html">Rad Rafting</a>
+            <a href="wwr/site-plan-rafting.html">Rad Rafting Siteplan</a>
+            <a href="portfolio\index.html">Personal Portfolio</a>
+            <a href="portfolio\siteplan.html">Personal Portfolio siteplan</a>
+            
+            
+        </nav>
+        <h2>Old personal Project</h2>
+        <nav> 
+          <a href="personalsite/index.html">Personal Website [OLD]</a>
+          <a href="personalsite/siteplan.html">Personal Siteplan [OLD]</a>
+        </nav>
+
+        <h2>Other projects:</h2>
+        <nav>
+            <a href="cherry site/index.html">Cherry site</a>
+            <a href="wwr/positioning.html">Positioning Activity</a>
+        </nav>
+        <p>Bryson - WDD130</p>
+    </div>
+</body>
+</html>
