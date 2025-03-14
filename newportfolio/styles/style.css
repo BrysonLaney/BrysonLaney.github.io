@@ -17,6 +17,34 @@ h2 {
     color: #5A7D7C;
     margin-top: 20px
 }
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+
+.colors {
+  background-color: #2a9c46; /* Example background color */
+  color: #0b019b; /* Example text color */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(170, 16, 16, 0.1);
+}
+.colors .primary {
+    background-color: var(--primary-color);
+  }
+  
+  .colors .secondary {
+    background-color: var(--secondary-color);
+  }
+  
+  .colors .accent1 {
+    background-color: var(--accent1-color);
+  }
+  
+  .colors .accent2 {
+    background-color: var(--accent2-color);
+  }
 
 .container {
     display: flex;
