@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Csharp - Forsaken Genuine Goldfinch</title>
-    <meta property="og:title" content="Csharp - Forsaken Genuine Goldfinch" />
+    <title>Csharp - Bryson Laney</title>
+    <meta property="og:title" content="Csharp - Bryson Laney" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -322,7 +322,11 @@
                       <span>
                         Csharp was my third language I learned. I first used it
                         in College while attending BYU-I. I've had a good time
-                        using this language.
+                        using this language. While the Github Repository that I've 
+                        linked below doesn't have all of my work, I've made programs 
+                        that are games, such as pong, "greed" a game about collecting falling 
+                        objects, queues with their respective test cases along with others that 
+                        I have worked on over two years ago.
                       </span>
                       <br />
                     </span>
@@ -382,9 +386,8 @@
                     </div>
                     <div class="cta26-actions">
                       <a
-                        href="https://github.com/BrysonLaney?tab=overview&amp;from=2025-04-01&amp;to=2025-04-02"
-                        target="_blank"
-                        rel="noreferrer noopener"
+                        href="#"
+                        onclick="openLightbox()"
                         class="cta26-link thq-button-filled"
                       >
                         <span>
@@ -417,5 +420,39 @@
       defer=""
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+    <div id="lightbox" class="lightbox">
+      <div class="lightbox-content">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <h2>GitHub Repository</h2>
+        <p>Click the button below to visit my GitHub repository.</p>
+        <a
+          href="https://github.com/BrysonLaney?tab=overview&amp;from=2025-04-01&amp;to=2025-04-02"
+          target="_blank"
+          rel="noreferrer noopener"
+          class="cta26-link thq-button-filled"
+        >
+          <span>
+            <fragment class="csharp-fragment28">
+              <span class="csharp-text30">Go to GitHub</span>
+            </fragment>
+          </span>
+        </a>
+      </div>
+    </div>
+    <script>
+      function openLightbox() {
+        document.getElementById("lightbox").style.display = "block";
+      }
+    
+      function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+      }
+    
+      // Open the lightbox when the GitHub button is clicked
+      document.querySelector('.cta26-link.thq-button-filled').onclick = function(event) {
+        event.preventDefault(); // Prevent default anchor click behavior
+        openLightbox();
+      };
+    </script>
   </body>
 </html>
