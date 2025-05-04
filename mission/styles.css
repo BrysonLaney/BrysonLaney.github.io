@@ -60,3 +60,17 @@ footer .logo {
     width: 120px;
     margin-top: 20px;
 }
+
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+body.dark .content {
+    background-color: #444; /* Darker background for content */
+    border-color: #555; /* Darker border for content */
+}
+
+body.dark header .title:nth-child(2) {
+    color: #006EB6; /* New blue color for better contrast */
+}
