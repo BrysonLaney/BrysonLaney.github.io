@@ -58,6 +58,10 @@ button {
     padding: 1em;
 }
 
+.hide {
+    display: none;
+}
+
 figure {
     margin: 0;
 }
@@ -83,4 +87,39 @@ figure {
     button {
         display: none;
     }
+}
+dialog {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    padding: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    max-width: 90vw;
+    max-height: 90vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+dialog img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
 }

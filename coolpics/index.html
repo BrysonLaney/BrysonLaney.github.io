@@ -11,8 +11,11 @@
 <body>
     <header>
         <h1>Cool Pics 📷</h1>
-        <nav>
-            <!-- Navigation links can be added here -->
+        <button id="menuButton">Menu</button>
+        <nav class="hide">
+            <a href="#link1">Link 1</a>
+            <a href="#link2">Link 2</a>
+            <a href="#link3">Link 3</a>
         </nav>
     </header>
     <main>
@@ -50,6 +53,12 @@
     <footer>
         <p>©2023 Not a real site 😀</p>
     </footer>
+
+    <dialog id="imageModal">
+        <img id="modalImage" src="" alt="Large view">
+        <button class="close-viewer">X</button>
+    </dialog>
+
     <script src="coolpics.js"></script>
 </body>
 </html>
