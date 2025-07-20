@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #1b2838;
+  --secondary-color: #66aaff;
+  --accent1-color: #3b5998;
+  --accent2-color: #ffffff;
+  --text-color: #ffffff;
+  --font-stack: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--font-stack);
+  background-color: #f5f7fa;
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: var(--text-color);
+  margin: 0 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  margin-top: 1em;
+}
+
+input, textarea {
+  padding: 0.5em;
+  font-size: 1em;
+  margin-top: 0.2em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.7em;
+  background-color: var(--secondary-color);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--accent1-color);
+}
+
+#suggestions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.suggestion-card {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 1em;
+  background-color: white;
+}
+
+.suggestion-card a {
+  color: var(--secondary-color);
+}

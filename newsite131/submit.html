@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8" />
+  <title>Submit a Game Suggestion</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Submit a Game Suggestion</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="submit.html">Submit Suggestion</a>
+    </nav>
+  </header>
+  <main>
+    <form id="suggestion-form">
+      <label for="game-name">Game Name*:</label>
+      <input type="text" id="game-name" required />
+      <label for="game-link">Game Link*:</label>
+      <input type="url" id="game-link" required />
+      <label for="game-review">Your Review:</label>
+      <textarea id="game-review"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+</html>
